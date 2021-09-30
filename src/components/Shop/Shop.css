@@ -1,0 +1,28 @@
+.input-container {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.input-container input {
+  width: 650px;
+  height: 25px;
+  outline: none;
+  font-size: 18px;
+  padding: 0 5px;
+}
+
+.input-container input::placeholder {
+  font-size: 16px;
+}
+
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.product-container {
+  border-right: 1px solid #d3d3d3;
+  margin-left: 50px;
+  margin-right: 5px;
+}
