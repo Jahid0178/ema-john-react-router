@@ -23,3 +23,8 @@
   border-radius: 2px;
   background-color: #d3d3d3;
 }
+
+.user-name {
+  color: #f0c14b;
+  cursor: context-menu;
+}

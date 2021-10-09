@@ -5,7 +5,7 @@ import "./PlaceOrder.css";
 const PlaceOrder = () => {
   return (
     <div>
-      <img src={Img} alt="" />
+      <img className="success-img" src={Img} alt="" />
     </div>
   );
 };

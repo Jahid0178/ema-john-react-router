@@ -1,0 +1,23 @@
+.register-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-content {
+  padding: 0 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.login-btn {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  color: #c45500;
+  text-decoration: underline;
+}

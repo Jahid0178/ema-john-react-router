@@ -1,0 +1,43 @@
+.login-container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-content {
+  border: 1px solid #ddd;
+  padding: 0 20px 30px 20px;
+  border-radius: 3px;
+}
+
+.input-field {
+  width: 250px;
+  height: 25px;
+  margin: 5px 0;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+.input-field:focus {
+  outline: none;
+  border: 1px solid #e77600;
+  box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+
+.create-account-link {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.create-account-link:hover {
+  color: #c45500;
+  text-decoration: underline;
+}
+
+.or {
+  margin-bottom: 10px;
+}
