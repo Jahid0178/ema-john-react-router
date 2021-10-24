@@ -4,9 +4,9 @@ import { useState } from "react";
 const useProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("./products.JSON")
+    fetch("http://localhost:4000/products")
       .then((response) => response.json())
-      .then((data) => setProducts(data));
+      .then((data) => setProducts(data.products));
   }, []);
   // return necessary things
   return [products];
