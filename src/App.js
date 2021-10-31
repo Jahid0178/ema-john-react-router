@@ -11,6 +11,7 @@ import Register from "./components/Register/Register";
 import AuthProvider from "./context/AuthProvider";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 import Shipping from "./components/Shipping/Shipping";
+import Orders from "./components/Orders/Orders";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
             <Route path="/shop">
               <Shop></Shop>
             </Route>
-            <Route path="/orders">
+            <Route path="/orders-review">
               <OrderReview></OrderReview>
             </Route>
             <PrivateRoute path="/inventory">
@@ -36,6 +37,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/placeorder">
               <PlaceOrder></PlaceOrder>
+            </PrivateRoute>
+            <PrivateRoute path="/orders">
+              <Orders></Orders>
             </PrivateRoute>
             <Route path="/login">
               <LogIn></LogIn>

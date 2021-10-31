@@ -12,8 +12,9 @@ const Header = () => {
       <img className="logo" src={logo} alt="" />
       <nav>
         <NavLink to="/shop">Shop</NavLink>
-        <NavLink to="/orders">Order-Review</NavLink>
+        <NavLink to="/orders-review">Order-Review</NavLink>
         <NavLink to="/inventory">Manage Inventory Here</NavLink>
+        {user.email && <NavLink to="/orders">My Orders</NavLink>}
         {user.email && (
           <span className="user-name">Hello, {user.displayName}</span>
         )}

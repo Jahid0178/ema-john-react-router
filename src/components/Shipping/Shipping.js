@@ -44,7 +44,7 @@ const Shipping = () => {
         <input
           defaultValue={user.email}
           placeholder="Enter your email"
-          {...register("Email", { required: true })}
+          {...register("email", { required: true })}
         />
 
         <input placeholder="Enter your address" {...register("address")} />
